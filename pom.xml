@@ -30,7 +30,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
 					<warName>${project.artifactId}</warName>
 				</configuration>
 			</plugin>
