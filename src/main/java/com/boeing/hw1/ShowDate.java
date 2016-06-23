@@ -32,7 +32,16 @@ public class ShowDate extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		response.setContentType("text/html");
 		out.println(new Date());
+
 		out.println("<br> Jieun is writing hello world!");
+
+		out.println("New Hello World.");
+		out.println("New Hello World.");
+		out.println("New Hello World.");
+		out.println("New Hello World.");
+		out.println("New Hello World.");
+		out.println("New Hello World.");
+
 		out.close();
 	}
 
